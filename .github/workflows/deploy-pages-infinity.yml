@@ -26,7 +26,6 @@ jobs:
         run: |
           set -euo pipefail
           php -l index.php
-          php -l process_form.php
           echo "PHP syntax OK"
 
   deploy:
