@@ -25,7 +25,7 @@ jobs:
       - name: PHP Lint
         run: |
           set -euo pipefail
-          php -l index.html
+          php -l index.php
           echo "PHP syntax OK"
 
   deploy:
