@@ -16,11 +16,11 @@
         <p id="message"></p>
 
         <section style="margin-top: 20px; padding: 10px; border: 1px solid #ccc;">
-            <h2>Current Server Time!!</h2>
+            <h2>Current Server Time</h2>
             <?php
                 // The 'h:i:s A' format displays hour:minute:second AM/PM.
                 $currentTime = date("h:i:s A");
-                echo "<p>The time right now is: **$currentTime**</p>";
+                echo "<p>The time right now is: $currentTime</p>";
             ?>
         </section>
         </main>
