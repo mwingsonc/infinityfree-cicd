@@ -28,7 +28,8 @@
             <h3>Register</h3>
             <form action="process_form.php" method="POST">
                 <label for="email">Email Address:</label><br>
-                <input type="email" id="email" name="email" required><br>
+                <input type="email" id="email" name="email" required>
+                style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; box-sizing: border-box;"><br>
                 <button type="submit" 
                         style="background-color: #007bff; color: white; padding: 10px 15px; border: none; cursor: pointer;">
                     Register

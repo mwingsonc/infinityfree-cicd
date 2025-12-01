@@ -21,7 +21,7 @@
                     
                     // Display the confirmation message
                     echo "<h2>Thank You for Registering!</h2>";
-                    echo "<p>Your email address, **$userEmail**, has been successfully submitted.</p>";
+                    echo "<p>Your email address, $userEmail, has been successfully submitted.</p>";
 
                     // In a real application, you would save $userEmail to a database here.
 
