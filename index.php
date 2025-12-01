@@ -24,13 +24,11 @@
             ?>
         </section>
 
-        <section style="margin-top: 20px; padding: 10px; border: 1px solid #007bff; background-color: #f8f9fa;">
-            <h3>Register for Updates</h3>
+        <section style="margin-top: 20px; padding: 10px; border: 1px solid #ccc;">
+            <h3>Register</h3>
             <form action="process_form.php" method="POST">
                 <label for="email">Email Address:</label><br>
-                <input type="email" id="email" name="email" required 
-                       placeholder="you@example.com"
-                       style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; box-sizing: border-box;"><br>
+                <input type="email" id="email" name="email" required><br>
                 <button type="submit" 
                         style="background-color: #007bff; color: white; padding: 10px 15px; border: none; cursor: pointer;">
                     Register
